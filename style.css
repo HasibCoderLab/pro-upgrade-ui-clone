@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(208, 242, 244);
+}
+.txt-img{
+    display: flex;
+     align-items: center;
+    justify-content: space-around;
+}
+img{
+    height: 15vh;
+   margin-top: 40px;
+   /* width: 30vh; */
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.8s ease-in-out;
+
+}
+img:hover {
+    transform: scale(1.2) rotate(360deg);
+
+}
+.txt  h1 {
+    /* font-size: 45px; */
+background:linear-gradient(90deg ,#0585e1 , #e8467f , #7A1F3A , #34F286);
+background-size: 300%  300%;
+color: transparent;
+-webkit-background-clip:text ;
+animation: colorMove 3s infinite alternate;
+}
+@keyframes colorMove{
+    0%{
+        background-position: 0% 50%;
+    }
+    100%{
+        background-position:100% 50%;
+    }
+}
