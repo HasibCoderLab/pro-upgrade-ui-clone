@@ -92,3 +92,7 @@ img:hover {
 .box:nth-child(6) {
     grid-area: box6;
 }
+/* box  h1 */
+.box h1{
+   margin: 10px  0  0 10px; 
+}
