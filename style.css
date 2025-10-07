@@ -26,7 +26,7 @@ img:hover {
 }
 .txt  h1 {
     /* font-size: 45px; */
-background:linear-gradient(90deg ,#0585e1 , #e8467f , #7A1F3A , #34F286);
+background:linear-gradient(90deg ,#0585e1 , #e8467f , #6B3F69);
 background-size: 300%  300%;
 color: transparent;
 -webkit-background-clip:text ;
