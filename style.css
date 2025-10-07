@@ -31,7 +31,7 @@ img:hover {
 
 .txt h1 {
     /* font-size: 45px; */
-    background: linear-gradient(90deg, #0585e1, #e8467f, #6B3F69);
+    background: linear-gradient(90deg, #0585E1, #E8467F, #6B3F69,#880cd0,#10B981);
     background-size: 300% 300%;
     color: transparent;
     -webkit-background-clip: text;
@@ -141,4 +141,28 @@ img:hover {
 .box:nth-child(6) i {
     /* Enterprise */
     color: #EF4444;
+}
+/* price-info */
+span{
+    font-size: 40px;
+
+}
+.price-info {
+    /* text-align: center; */
+    position: relative;
+}
+.price-info h4{
+    position: relative;
+    top: -10px;
+    font-size: 22px;
+    vertical-align: super;
+    margin: 0  0 0 5px;
+    /* margin-right: 4px; */
+}
+.price-info span{
+    font-size: 40px;
+    font-weight: bold;
+}
+.price-info span , h4{
+    display: inline-block;
 }
