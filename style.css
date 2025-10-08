@@ -15,7 +15,7 @@ body {
     justify-content: space-around;
 }
 
-img {
+.txt-img .img img {
     height: 15vh;
     margin-top: 40px;
     /* width: 30vh; */
@@ -144,7 +144,7 @@ img:hover {
     color: #EF4444;
 }
 /* price-info */
-span{
+.price-info span{
     font-size: 40px;
 
 }

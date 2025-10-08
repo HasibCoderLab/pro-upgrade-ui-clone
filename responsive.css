@@ -1,0 +1,23 @@
+
+@media (max-width: 600px) {
+  .subject-row {
+    flex-direction: column;
+  }
+
+  .add-btn,
+  .check-btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .link {
+    font-size: 0.95em;
+    padding: 10px;
+  }
+
+  .links {
+    flex-direction: column;
+  }
+
+ 
+}
