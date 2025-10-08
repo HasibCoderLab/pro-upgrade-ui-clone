@@ -5,7 +5,8 @@
 }
 
 body {
-    background: rgb(208, 242, 244);
+    /* background: rgb(208, 242, 244); */
+    /* background: #000; */
 }
 
 .txt-img {
@@ -165,5 +166,58 @@ span{
 }
 .price-info span , h4{
     display: inline-block;
+}
+.price-info h2{
+    margin: 0 2px 0 10px;
+}
+/* ======= btns ========= */
+.btn{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px ;   
+    /* border:2px solid red;   */
+    /* background-color: cadetblue; */
+    border-radius: 15px; 
+      transition: all 0.3s ease; 
+      /* cursor: pointer; */
+}
+.btn button{
+     border: none;
+    outline:none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+    background: transparent;   
+     transition: all 0.3s ease;
+     cursor: pointer;
+}
+
+/* Individual button colors */
+.box:nth-child(1) .btn {
+     background: #10B981; 
+}
+.box:nth-child(2) .btn {
+     background: #3B82F6; 
+}
+.box:nth-child(3) .btn {
+     background: #8B5CF6; 
+}
+.box:nth-child(4) .btn {
+     background: #F59E0B; 
+}
+.box:nth-child(5) .btn {
+     background: #FACC15; color: #333; 
+}
+.box:nth-child(6) .btn {
+     background: #EF4444; 
+}
+
+/* Hover effects */
+.btn:hover { 
+  transform: scale(1.05);
+  box-shadow: 0 0 10px currentColor;
+  opacity: 0.9;
 }
 
